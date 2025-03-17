@@ -1,0 +1,78 @@
+{
+  "results": {
+    "code2text_python": {
+      "smoothed_bleu_4,none": 0.8390299586050176,
+      "smoothed_bleu_4_stderr,none": 0.05659526108180431,
+      "alias": "code2text_python"
+    }
+  },
+  "configs": {
+    "code2text_python": {
+      "task": "code2text_python",
+      "group": [
+        "codexglue_code2text"
+      ],
+      "dataset_path": "CM/codexglue_code2text_python",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "test",
+      "doc_to_text": "<function doc_to_text at 0x155378bb6e80>",
+      "doc_to_target": "<function doc_to_target at 0x155378bb71a0>",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "metric_list": [
+        {
+          "metric": "<function smoothed_bleu_4 at 0x155378bb7b00>",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "num_beams": 2,
+        "max_length": 128,
+        "until": [
+          "</s>"
+        ],
+        "do_sample": false,
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 0,
+        "max_new_tokens": 250
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": [
+        {
+          "version": 0.0
+        }
+      ]
+    }
+  },
+  "versions": {
+    "code2text_python": "Yaml"
+  },
+  "n-shot": {
+    "code2text_python": 0
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 100.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "do_sample": false,
+      "temperature": 1.0,
+      "top_p": 1.0,
+      "top_k": 0,
+      "num_beams": 2,
+      "max_new_tokens": 250
+    }
+  },
+  "git_hash": null
+}

@@ -1,0 +1,323 @@
+SLURM JOB ID is 560339
+Starting runs with top_k=1
+Running run 1 with 1st Run and top_k=1
+Started nvidia-smi monitoring with PID 725454 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=1,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7337|±  |0.0277|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=1
+Started nvidia-smi monitoring with PID 727658 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=1,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7337|±  |0.0277|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=1
+Started nvidia-smi monitoring with PID 729712 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=1,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7337|±  |0.0277|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=1
+Started nvidia-smi monitoring with PID 731964 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=1,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7337|±  |0.0277|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=1
+Started nvidia-smi monitoring with PID 734195 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=1,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7337|±  |0.0277|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next top_k sampling runs...
+Starting runs with top_k=5
+Running run 1 with 1st Run and top_k=5
+Started nvidia-smi monitoring with PID 736480 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=5,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7802|±  | 0.035|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=5
+Started nvidia-smi monitoring with PID 738698 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=5,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7802|±  | 0.035|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=5
+Started nvidia-smi monitoring with PID 740907 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=5,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7802|±  | 0.035|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=5
+Started nvidia-smi monitoring with PID 743166 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=5,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7802|±  | 0.035|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=5
+Started nvidia-smi monitoring with PID 745297 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=5,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7802|±  | 0.035|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next top_k sampling runs...
+Starting runs with top_k=25
+Running run 1 with 1st Run and top_k=25
+Started nvidia-smi monitoring with PID 747794 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=25,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7168|±  |0.0305|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=25
+Started nvidia-smi monitoring with PID 749878 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=25,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7168|±  |0.0305|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=25
+Started nvidia-smi monitoring with PID 752047 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=25,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7168|±  |0.0305|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=25
+Started nvidia-smi monitoring with PID 754302 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=25,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7168|±  |0.0305|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=25
+Started nvidia-smi monitoring with PID 756374 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=25,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7168|±  |0.0305|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next top_k sampling runs...
+Starting runs with top_k=50
+Running run 1 with 1st Run and top_k=50
+Started nvidia-smi monitoring with PID 758812 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=50,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7147|±  |0.0298|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=50
+Started nvidia-smi monitoring with PID 760868 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=50,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7147|±  |0.0298|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=50
+Started nvidia-smi monitoring with PID 763046 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=50,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7147|±  |0.0298|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=50
+Started nvidia-smi monitoring with PID 765300 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=50,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7147|±  |0.0298|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=50
+Started nvidia-smi monitoring with PID 767537 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=50,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7147|±  |0.0298|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next top_k sampling runs...
+Starting runs with top_k=100
+Running run 1 with 1st Run and top_k=100
+Started nvidia-smi monitoring with PID 769822 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=100,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7027|±  |0.0296|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=100
+Started nvidia-smi monitoring with PID 772013 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=100,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7027|±  |0.0296|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=100
+Started nvidia-smi monitoring with PID 774097 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=100,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7027|±  |0.0296|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=100
+Started nvidia-smi monitoring with PID 776245 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=100,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7027|±  |0.0296|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=100
+Started nvidia-smi monitoring with PID 778471 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=100,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7027|±  |0.0296|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next top_k sampling runs...
+Starting runs with top_k=250
+Running run 1 with 1st Run and top_k=250
+Started nvidia-smi monitoring with PID 780808 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=250,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7153|±  |0.0321|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=250
+Started nvidia-smi monitoring with PID 783036 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=250,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7153|±  |0.0321|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=250
+Started nvidia-smi monitoring with PID 785296 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=250,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7153|±  |0.0321|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=250
+Started nvidia-smi monitoring with PID 787419 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=250,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7153|±  |0.0321|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=250
+Started nvidia-smi monitoring with PID 789607 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=250,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7153|±  |0.0321|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next top_k sampling runs...
+Starting runs with top_k=500
+Running run 1 with 1st Run and top_k=500
+Started nvidia-smi monitoring with PID 792003 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=500,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7115|±  |0.0316|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and top_k=500
+Started nvidia-smi monitoring with PID 794167 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=500,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7115|±  |0.0316|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and top_k=500
+Started nvidia-smi monitoring with PID 796386 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=500,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7115|±  |0.0316|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and top_k=500
+Started nvidia-smi monitoring with PID 798597 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=500,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7115|±  |0.0316|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and top_k=500
+Started nvidia-smi monitoring with PID 800654 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_k=500,top_p=1.0,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|       Tasks        |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|--------------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_javascript|Yaml   |none  |     0|smoothed_bleu_4|0.7115|±  |0.0316|
+
+Stopped nvidia-smi monitoring process for run 5
+Script execution completed.

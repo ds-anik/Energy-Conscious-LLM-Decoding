@@ -1,0 +1,256 @@
+SLURM JOB ID is 560276
+Starting runs with epsilon=0.0003
+Running run 1 with 1st Run and epsilon=0.0003
+Started nvidia-smi monitoring with PID 59223 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0003), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and epsilon=0.0003
+Started nvidia-smi monitoring with PID 61173 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0003), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and epsilon=0.0003
+Started nvidia-smi monitoring with PID 63030 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0003), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and epsilon=0.0003
+Started nvidia-smi monitoring with PID 64829 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0003), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and epsilon=0.0003
+Started nvidia-smi monitoring with PID 66795 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0003), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next epsilon sampling runs...
+Starting runs with epsilon=0.0006
+Running run 1 with 1st Run and epsilon=0.0006
+Started nvidia-smi monitoring with PID 68841 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0006), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.75|±  |0.0435|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and epsilon=0.0006
+Started nvidia-smi monitoring with PID 70599 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0006), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.75|±  |0.0435|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and epsilon=0.0006
+Started nvidia-smi monitoring with PID 72478 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0006), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.75|±  |0.0435|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and epsilon=0.0006
+Started nvidia-smi monitoring with PID 74260 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0006), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.75|±  |0.0435|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and epsilon=0.0006
+Started nvidia-smi monitoring with PID 76162 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0006), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.80|±  |0.0402|
+|     |       |strict-match    |     5|exact_match|↑  | 0.75|±  |0.0435|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next epsilon sampling runs...
+Starting runs with epsilon=0.0009
+Running run 1 with 1st Run and epsilon=0.0009
+Started nvidia-smi monitoring with PID 78021 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0009), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.81|±  |0.0394|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and epsilon=0.0009
+Started nvidia-smi monitoring with PID 79943 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0009), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.81|±  |0.0394|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and epsilon=0.0009
+Started nvidia-smi monitoring with PID 81707 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0009), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.81|±  |0.0394|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and epsilon=0.0009
+Started nvidia-smi monitoring with PID 83660 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0009), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.81|±  |0.0394|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and epsilon=0.0009
+Started nvidia-smi monitoring with PID 85483 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.0009), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.81|±  |0.0394|
+|     |       |strict-match    |     5|exact_match|↑  | 0.76|±  |0.0429|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next epsilon sampling runs...
+Starting runs with epsilon=0.002
+Running run 1 with 1st Run and epsilon=0.002
+Started nvidia-smi monitoring with PID 87513 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.002), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.83|±  |0.0378|
+|     |       |strict-match    |     5|exact_match|↑  | 0.77|±  |0.0423|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and epsilon=0.002
+Started nvidia-smi monitoring with PID 89425 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.002), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.83|±  |0.0378|
+|     |       |strict-match    |     5|exact_match|↑  | 0.77|±  |0.0423|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and epsilon=0.002
+Started nvidia-smi monitoring with PID 91171 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.002), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.83|±  |0.0378|
+|     |       |strict-match    |     5|exact_match|↑  | 0.77|±  |0.0423|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and epsilon=0.002
+Started nvidia-smi monitoring with PID 93063 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.002), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.83|±  |0.0378|
+|     |       |strict-match    |     5|exact_match|↑  | 0.77|±  |0.0423|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and epsilon=0.002
+Started nvidia-smi monitoring with PID 94810 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.002), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.83|±  |0.0378|
+|     |       |strict-match    |     5|exact_match|↑  | 0.77|±  |0.0423|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next epsilon sampling runs...
+Starting runs with epsilon=0.004
+Running run 1 with 1st Run and epsilon=0.004
+Started nvidia-smi monitoring with PID 96844 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.004), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.82|±  |0.0386|
+|     |       |strict-match    |     5|exact_match|↑  | 0.80|±  |0.0402|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and epsilon=0.004
+Started nvidia-smi monitoring with PID 98598 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.004), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.82|±  |0.0386|
+|     |       |strict-match    |     5|exact_match|↑  | 0.80|±  |0.0402|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and epsilon=0.004
+Started nvidia-smi monitoring with PID 100472 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.004), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.82|±  |0.0386|
+|     |       |strict-match    |     5|exact_match|↑  | 0.80|±  |0.0402|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and epsilon=0.004
+Started nvidia-smi monitoring with PID 102209 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.004), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.82|±  |0.0386|
+|     |       |strict-match    |     5|exact_match|↑  | 0.80|±  |0.0402|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and epsilon=0.004
+Started nvidia-smi monitoring with PID 103998 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=True,temperature=1.0,top_p=1.0,top_k=0,epsilon_cutoff=0.004), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.82|±  |0.0386|
+|     |       |strict-match    |     5|exact_match|↑  | 0.80|±  |0.0402|
+
+Stopped nvidia-smi monitoring process for run 5
+Script execution completed.

@@ -1,0 +1,93 @@
+SLURM JOB ID is 560324
+Starting runs with DoLA layer=high
+Running run 1 with 1st Run and DoLA layer=high
+Started nvidia-smi monitoring with PID 470314 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=high,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9161|±  |0.0667|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and DoLA layer=high
+Started nvidia-smi monitoring with PID 473189 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=high,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9161|±  |0.0667|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and DoLA layer=high
+Started nvidia-smi monitoring with PID 475963 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=high,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9161|±  |0.0667|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and DoLA layer=high
+Started nvidia-smi monitoring with PID 478685 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=high,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9161|±  |0.0667|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and DoLA layer=high
+Started nvidia-smi monitoring with PID 481283 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=high,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9161|±  |0.0667|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next dola layer runs...
+Starting runs with DoLA layer=low
+Running run 1 with 1st Run and DoLA layer=low
+Started nvidia-smi monitoring with PID 484148 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=low,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9259|±  |0.0604|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run and DoLA layer=low
+Started nvidia-smi monitoring with PID 486836 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=low,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9259|±  |0.0604|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run and DoLA layer=low
+Started nvidia-smi monitoring with PID 489671 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=low,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9259|±  |0.0604|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run and DoLA layer=low
+Started nvidia-smi monitoring with PID 492496 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=low,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9259|±  |0.0604|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run and DoLA layer=low
+Started nvidia-smi monitoring with PID 495280 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,dola_layers=low,repetition_penalty=1.2,num_beams=1,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.9259|±  |0.0604|
+
+Stopped nvidia-smi monitoring process for run 5
+Script execution completed.

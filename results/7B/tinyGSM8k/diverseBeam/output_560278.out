@@ -1,0 +1,205 @@
+SLURM JOB ID is 560278
+Starting runs with beam_size=4 and beam_group_size=2
+Running run 1 with 1st Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 105572 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.86|±  |0.0349|
+|     |       |strict-match    |     5|exact_match|↑  | 0.83|±  |0.0378|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 108105 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.86|±  |0.0349|
+|     |       |strict-match    |     5|exact_match|↑  | 0.83|±  |0.0378|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 110481 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.86|±  |0.0349|
+|     |       |strict-match    |     5|exact_match|↑  | 0.83|±  |0.0378|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 112831 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.86|±  |0.0349|
+|     |       |strict-match    |     5|exact_match|↑  | 0.83|±  |0.0378|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 115117 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.86|±  |0.0349|
+|     |       |strict-match    |     5|exact_match|↑  | 0.83|±  |0.0378|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next assisted decoding runs...
+Starting runs with beam_size=5 and beam_group_size=5
+Running run 1 with 1st Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 117542 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.84|±  |0.0368|
+|     |       |strict-match    |     5|exact_match|↑  | 0.81|±  |0.0394|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 120006 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.84|±  |0.0368|
+|     |       |strict-match    |     5|exact_match|↑  | 0.81|±  |0.0394|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 122626 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.84|±  |0.0368|
+|     |       |strict-match    |     5|exact_match|↑  | 0.81|±  |0.0394|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 125279 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.84|±  |0.0368|
+|     |       |strict-match    |     5|exact_match|↑  | 0.81|±  |0.0394|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 127712 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.84|±  |0.0368|
+|     |       |strict-match    |     5|exact_match|↑  | 0.81|±  |0.0394|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next assisted decoding runs...
+Starting runs with beam_size=10 and beam_group_size=2
+Running run 1 with 1st Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 130600 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 133383 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 136400 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 139197 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 142246 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next assisted decoding runs...
+Starting runs with beam_size=10 and beam_group_size=5
+Running run 1 with 1st Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 145572 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 148894 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 151930 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 155201 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 158559 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0), limit: 100.0, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|---|----:|---|-----:|
+|gsm8k|      3|flexible-extract|     5|exact_match|↑  | 0.87|±  |0.0338|
+|     |       |strict-match    |     5|exact_match|↑  | 0.85|±  |0.0359|
+
+Stopped nvidia-smi monitoring process for run 5
+Script execution completed.

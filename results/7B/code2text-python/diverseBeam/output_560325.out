@@ -1,0 +1,185 @@
+SLURM JOB ID is 560325
+Starting runs with beam_size=4 and beam_group_size=2
+Running run 1 with 1st Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 497871 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8292|±  |0.0563|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 500488 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8292|±  |0.0563|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 503257 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8292|±  |0.0563|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 506051 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8292|±  |0.0563|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=4, and beam_group_size=2
+Started nvidia-smi monitoring with PID 508701 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=4,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8292|±  |0.0563|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next assisted decoding runs...
+Starting runs with beam_size=5 and beam_group_size=5
+Running run 1 with 1st Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 511581 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8321|±  |0.0597|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 514477 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8321|±  |0.0597|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 517721 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8321|±  |0.0597|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 520664 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8321|±  |0.0597|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 523626 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=5,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.8321|±  |0.0597|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next assisted decoding runs...
+Starting runs with beam_size=10 and beam_group_size=2
+Running run 1 with 1st Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 527000 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.7069|±  |0.0459|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 530083 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.7069|±  |0.0459|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 533251 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.7069|±  |0.0459|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 536237 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.7069|±  |0.0459|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=10, and beam_group_size=2
+Started nvidia-smi monitoring with PID 539528 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=2,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value |   |Stderr|
+|----------------|-------|------|-----:|---------------|-----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.7069|±  |0.0459|
+
+Stopped nvidia-smi monitoring process for run 5
+Waiting for 100 seconds before starting next assisted decoding runs...
+Starting runs with beam_size=10 and beam_group_size=5
+Running run 1 with 1st Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 542791 for run 1
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value|   |Stderr|
+|----------------|-------|------|-----:|---------------|----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.769|±  |0.0551|
+
+Stopped nvidia-smi monitoring process for run 1
+Waiting for 30 seconds between runs...
+Running run 2 with 2nd Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 546059 for run 2
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value|   |Stderr|
+|----------------|-------|------|-----:|---------------|----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.769|±  |0.0551|
+
+Stopped nvidia-smi monitoring process for run 2
+Waiting for 30 seconds between runs...
+Running run 3 with 3rd Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 549316 for run 3
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value|   |Stderr|
+|----------------|-------|------|-----:|---------------|----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.769|±  |0.0551|
+
+Stopped nvidia-smi monitoring process for run 3
+Waiting for 30 seconds between runs...
+Running run 4 with 4th Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 552659 for run 4
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value|   |Stderr|
+|----------------|-------|------|-----:|---------------|----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.769|±  |0.0551|
+
+Stopped nvidia-smi monitoring process for run 4
+Waiting for 30 seconds between runs...
+Running run 5 with 5th Run , beam_size=10, and beam_group_size=5
+Started nvidia-smi monitoring with PID 556123 for run 5
+hf (pretrained=Qwen/Qwen2.5-7B-Instruct,dtype=bfloat16,device=cuda,parallelize=False), gen_kwargs: (do_sample=False,num_beams=10,num_beam_groups=5,diversity_penalty=1.0,temperature=1.0,top_k=0,top_p=1.0,max_new_tokens=250), limit: 100.0, num_fewshot: None, batch_size: 1
+|     Tasks      |Version|Filter|n-shot|    Metric     |Value|   |Stderr|
+|----------------|-------|------|-----:|---------------|----:|---|-----:|
+|code2text_python|Yaml   |none  |     0|smoothed_bleu_4|0.769|±  |0.0551|
+
+Stopped nvidia-smi monitoring process for run 5
+Script execution completed.

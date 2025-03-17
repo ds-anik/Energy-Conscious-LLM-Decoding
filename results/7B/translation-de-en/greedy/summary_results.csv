@@ -1,0 +1,6 @@
+file_name,total_time_seconds,average_power_watts,total_energy_joules
+gpu_monitor_greedy_run_1.csv,309,110.89,34264.37
+gpu_monitor_greedy_run_2.csv,312,110.4,34443.94
+gpu_monitor_greedy_run_3.csv,309,111.28,34384.34
+gpu_monitor_greedy_run_4.csv,310,110.89,34377.4
+gpu_monitor_greedy_run_5.csv,307,111.76,34309.1

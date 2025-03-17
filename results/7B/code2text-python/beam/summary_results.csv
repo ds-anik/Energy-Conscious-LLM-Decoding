@@ -1,0 +1,16 @@
+file_name,total_time_seconds,average_power_watts,total_energy_joules
+gpu_monitor_beam_2_run_1.csv,694,103.14,71578.04
+gpu_monitor_beam_2_run_2.csv,695,102.91,71523.17
+gpu_monitor_beam_2_run_3.csv,702,102.27,71790.97
+gpu_monitor_beam_2_run_4.csv,695,103.1,71651.57
+gpu_monitor_beam_2_run_5.csv,703,102.23,71864.26
+gpu_monitor_beam_5_run_1.csv,756,106.61,80594.99
+gpu_monitor_beam_5_run_2.csv,755,106.9,80709.09
+gpu_monitor_beam_5_run_3.csv,755,106.71,80565.69
+gpu_monitor_beam_5_run_4.csv,762,106.57,81202.75
+gpu_monitor_beam_5_run_5.csv,763,105.63,80598.19
+gpu_monitor_beam_10_run_1.csv,880,108.68,95636.07
+gpu_monitor_beam_10_run_2.csv,878,109.35,96006.33
+gpu_monitor_beam_10_run_3.csv,880,109.34,96218.75
+gpu_monitor_beam_10_run_4.csv,879,109.2,95988.92
+gpu_monitor_beam_10_run_5.csv,878,109.71,96324.28

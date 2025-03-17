@@ -1,0 +1,11 @@
+file_name,total_time_seconds,average_power_watts,total_energy_joules
+gpu_monitor_dola_high_run_1.csv,763,127.23,97072.92
+gpu_monitor_dola_high_run_2.csv,768,126.74,97337.34
+gpu_monitor_dola_high_run_3.csv,762,126.3,96237.0
+gpu_monitor_dola_high_run_4.csv,759,126.5,96011.68
+gpu_monitor_dola_high_run_5.csv,765,126.48,96760.21
+gpu_monitor_dola_low_run_1.csv,768,126.27,96974.73
+gpu_monitor_dola_low_run_2.csv,762,127.91,97469.9
+gpu_monitor_dola_low_run_3.csv,768,127.07,97587.33
+gpu_monitor_dola_low_run_4.csv,763,128.12,97756.37
+gpu_monitor_dola_low_run_5.csv,764,127.12,97120.27
