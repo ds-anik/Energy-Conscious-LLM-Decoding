@@ -1,0 +1,140 @@
+{
+  "results": {
+    "wmt16-en-de": {
+      "alias": "wmt16-en-de",
+      "bleu,none": 26.655245404838272,
+      "bleu_stderr,none": 0.991465554584455,
+      "ter,none": 68.07055050774987,
+      "ter_stderr,none": 2.3066297229922283,
+      "chrf,none": 56.600386239999956,
+      "chrf_stderr,none": 0.5765648873817322
+    }
+  },
+  "group_subtasks": {
+    "wmt16-en-de": []
+  },
+  "configs": {
+    "wmt16-en-de": {
+      "task": "wmt16-en-de",
+      "tag": [
+        "translation",
+        "wmt16",
+        "gpt3_translation_benchmarks"
+      ],
+      "dataset_path": "wmt16",
+      "dataset_name": "de-en",
+      "training_split": "train",
+      "validation_split": "validation",
+      "test_split": "test",
+      "fewshot_split": "validation",
+      "doc_to_text": "English phrase: {{translation[\"en\"]}}\nGerman phrase:",
+      "doc_to_target": " {{translation[\"de\"]}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "bleu"
+        },
+        {
+          "metric": "ter"
+        },
+        {
+          "metric": "chrf"
+        }
+      ],
+      "output_type": "generate_until",
+      "generation_kwargs": {
+        "until": [
+          "\n"
+        ],
+        "do_sample": true,
+        "temperature": 1.0,
+        "top_k": 0,
+        "top_p": 0.7
+      },
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 1.0
+      }
+    }
+  },
+  "versions": {
+    "wmt16-en-de": 1.0
+  },
+  "n-shot": {
+    "wmt16-en-de": 0
+  },
+  "higher_is_better": {
+    "wmt16-en-de": {
+      "bleu": true,
+      "ter": true,
+      "chrf": true
+    }
+  },
+  "n-samples": {
+    "wmt16-en-de": {
+      "original": 2999,
+      "effective": 500
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=meta-llama/Llama-3.1-8B-Instruct,dtype=bfloat16,device=cuda,parallelize=False",
+    "model_num_parameters": 8030261248,
+    "model_dtype": "torch.bfloat16",
+    "model_revision": "main",
+    "model_sha": "0e9e39f249a16976918f6564b8830bc894c89659",
+    "batch_size": "1",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": null,
+    "limit": 500.0,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": {
+      "do_sample": true,
+      "temperature": 1.0,
+      "top_k": 0,
+      "top_p": 0.7
+    },
+    "random_seed": 0,
+    "numpy_seed": 1234,
+    "torch_seed": 1234,
+    "fewshot_seed": 1234
+  },
+  "git_hash": null,
+  "date": 1741970976.409821,
+  "pretty_env_info": "PyTorch version: 2.4.0+cu121\nIs debug build: False\nCUDA used to build PyTorch: 12.1\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.5 LTS (x86_64)\nGCC version: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0\nClang version: Could not collect\nCMake version: Could not collect\nLibc version: glibc-2.35\n\nPython version: 3.10.14 (main, May  6 2024, 19:42:50) [GCC 11.2.0] (64-bit runtime)\nPython platform: Linux-5.15.0-133-generic-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: 12.2.140\nCUDA_MODULE_LOADING set to: LAZY\nGPU models and configuration: \nGPU 0: NVIDIA A100-PCIE-40GB\nGPU 1: NVIDIA A100-PCIE-40GB\n\nNvidia driver version: 550.144.03\ncuDNN version: Could not collect\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        48 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               256\nOn-line CPU(s) list:                  0-255\nVendor ID:                            AuthenticAMD\nModel name:                           AMD EPYC 7763 64-Core Processor\nCPU family:                           25\nModel:                                1\nThread(s) per core:                   2\nCore(s) per socket:                   64\nSocket(s):                            2\nStepping:                             1\nFrequency boost:                      enabled\nCPU max MHz:                          3529.0520\nCPU min MHz:                          1500.0000\nBogoMIPS:                             4900.39\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\nVirtualization:                       AMD-V\nL1d cache:                            4 MiB (128 instances)\nL1i cache:                            4 MiB (128 instances)\nL2 cache:                             64 MiB (128 instances)\nL3 cache:                             512 MiB (16 instances)\nNUMA node(s):                         2\nNUMA node0 CPU(s):                    0-63,128-191\nNUMA node1 CPU(s):                    64-127,192-255\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Mitigation; safe RET, no microcode\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n\nVersions of relevant libraries:\n[pip3] numpy==2.1.3\n[pip3] torch==2.4.0\n[pip3] torchvision==0.19.0\n[pip3] triton==3.0.0\n[conda] numpy                     1.26.4                   pypi_0    pypi\n[conda] torch                     2.4.0                    pypi_0    pypi\n[conda] torchvision               0.19.0                   pypi_0    pypi\n[conda] triton                    3.0.0                    pypi_0    pypi",
+  "transformers_version": "4.46.2",
+  "upper_git_hash": null,
+  "tokenizer_pad_token": [
+    "<|eot_id|>",
+    "128009"
+  ],
+  "tokenizer_eos_token": [
+    "<|eot_id|>",
+    "128009"
+  ],
+  "tokenizer_bos_token": [
+    "<|begin_of_text|>",
+    "128000"
+  ],
+  "eot_token_id": 128009,
+  "max_length": 131072,
+  "task_hashes": {
+    "wmt16-en-de": "59557b90aa95ab2ff9192402d8fb8492bab374734774c381bd4fc39a8a20d3fa"
+  },
+  "model_source": "hf",
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "model_name_sanitized": "meta-llama__Llama-3.1-8B-Instruct",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": null,
+  "chat_template_sha": null,
+  "start_time": 355569.985287305,
+  "end_time": 356320.836319165,
+  "total_evaluation_time_seconds": "750.8510318599874"
+}
