@@ -1,3 +1,6 @@
+# Modified version of Code For A Thorough Examination of Decoding Methods in the Era of LLMs
+# Original Code: (https://github.com/DavidFanzz/llm_decoding?tab=readme-ov-file#code-for-a-thorough-examination-of-decoding-methods-in-the-era-of-llms) 
+
 import json
 import sys
 import torch

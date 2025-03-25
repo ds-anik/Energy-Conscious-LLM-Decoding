@@ -1,0 +1,20 @@
+Running run 1 with 1st Run and assisted=5
+Started nvidia-smi monitoring with PID 2242262 for run 1
+the total number of prompts: 35
+the total number of prompts for rank 0: 35
+the total number of prompts for rank 0 to generate: 35
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: assisted_decoding
+  Updated Generation Config: GenerationConfig {
+  "eos_token_id": 128009,
+  "max_new_tokens": 250,
+  "pad_token_id": 128009,
+  "prompt_lookup_num_tokens": 5,
+  "top_k": 0
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+Time used for rank 0: 158.36s
+Stopped nvidia-smi monitoring process for run 1

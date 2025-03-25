@@ -1,44 +1,28 @@
-# Code For A Thorough Examination of Decoding Methods in the Era of LLMs
+# Code for Open-Ended Generation Tasks
 
 ### Install Requirements
 ```
 pip install datasets
 pip install evaluate
-pip install git+https://github.com/hendrycks/math.git
-pip install absl-py
-pip install nltk
-pip install antlr4-python3-runtime==4.11.1
-pip install transformers --upgrade
-pip install flash_attn
-pip install torch_scatter
+pip install transformers
 ```
 
 ### Generation
-Take Contrastive Search (CS) For Example
-```
-model_name=Llama2
-decoding_method=cs
-cs_alpha=0.1
-task=gsm8k
-model_path=/mnt/data/models/${model_name}
-python3 generate.py \
-    --decoding_method ${decoding_method}\
-    --infile ./data/${task}/${model_name}_input.jsonl\
-    --outfile ./results/${task}/${model_name}_${decoding_method}_${cs_alpha}.jsonl\
-    --model ${model_path}\
-    --gpus_per_model 1\
-    --world_size 4\
-    --batch_size 1\
-    --max_new_tokens 512\
-    --cs_alpha ${cs_alpha}
+Take Temperature For Example
 ```
 
-### Evaluation
+python3 generate.py \
+    --decoding_method temperature\
+    --infile ./data_test/wikitext/Llama2_chat_input.jsonl\
+    --outfile ./results/wikitext/output.jsonl\
+    --model_name_or_path ${model_path}\
+    --gpus_per_model 1\
+    --world_size 1\
+    --batch_size 1\
+    --max_new_tokens 512\
+    --temperature 0.7
 ```
-python3 evaluation.py\
-    --model ${model_name}\
-    --task_name ${task}\
-    --load_generations_path ./results/${task}/${model_name}_${decoding_method}.jsonl\
-    --metric_output_path ./results/${task}_results.jsonl\
-    --allow_code_execution
-```
+
+## Acknowledgments
+
+This code is based on [llm_decoding](https://github.com/DavidFanzz/llm_decoding?tab=readme-ov-file#code-for-a-thorough-examination-of-decoding-methods-in-the-era-of-llms) the official github repository for [A Thorough Examination of Decoding Methods in the Era of LLMs](https://arxiv.org/pdf/2402.06925) paper. Modifications have been made to adapt the code for our usecases. 
