@@ -1,0 +1,27 @@
+Running run 2 with 2nd Run and topk=500
+Started nvidia-smi monitoring with PID 74202 for run 2
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: topk
+  Updated Generation Config: GenerationConfig {
+  "do_sample": true,
+  "eos_token_id": 151645,
+  "max_new_tokens": 220,
+  "pad_token_id": 151643,
+  "seed": [
+    42,
+    42
+  ],
+  "top_k": 500
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 886.10s
+Stopped nvidia-smi monitoring process for run 2

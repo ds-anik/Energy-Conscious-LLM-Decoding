@@ -1,0 +1,28 @@
+Running run 3 with 3rd Run and temperature=1.5
+Started nvidia-smi monitoring with PID 761625 for run 3
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: temperature
+  Updated Generation Config: GenerationConfig {
+  "do_sample": true,
+  "eos_token_id": 128009,
+  "max_new_tokens": 219,
+  "pad_token_id": 128009,
+  "seed": [
+    42,
+    42
+  ],
+  "temperature": 1.5,
+  "top_k": 0
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 568.35s
+Stopped nvidia-smi monitoring process for run 3

@@ -16,6 +16,7 @@ from tqdm import tqdm
 from multiprocessing import Process
 import pandas as pd
 import numpy as np
+import random
 
 
 
@@ -25,8 +26,8 @@ def args_parse():
     parser.add_argument("--outfile", type=str, help="The output file where the generated text will be saved")
     parser.add_argument("--batch_size", type=int, default=1)
     parser.add_argument("--world_size", type=int, default=4)
-    parser.add_argument("--max_length", type=int, default=4096)
-    parser.add_argument("--max_new_tokens", type=int, default=256)
+    parser.add_argument("--max_length", type=int, default=270)
+    parser.add_argument("--max_new_tokens", type=int, default=512)
     parser.add_argument("--decoding_method", type=str, default="greedy") 
     parser.add_argument("--gpus_per_model", type=int, default=1)
     parser.add_argument("--begin_gpu", default=0, type=int) 
@@ -75,11 +76,19 @@ def verify_generation_config(model, generation_config, decoding_method, rank=0):
 
 
 def generate(rank, args):
-    visible_devices = [
-        str(rank * args.gpus_per_model + i + args.begin_gpu) for i in range(args.gpus_per_model)
-    ]
-    os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(visible_devices)
+    #visible_devices = [
+    #    str(rank * args.gpus_per_model + i + args.begin_gpu) for i in range(args.gpus_per_model)
+    #]
+    #os.environ["CUDA_VISIBLE_DEVICES"] = ",".join(visible_devices)
 
+    
+    # Set deterministic seeds - keep the original [42, 42] format in generation config
+    torch.manual_seed(42)
+    torch.cuda.manual_seed_all(42)
+    np.random.seed(42)
+    random.seed(42)
+
+    
     tokenizer = AutoTokenizer.from_pretrained(
             args.model_name_or_path, trust_remote_code=True
         )
@@ -188,13 +197,13 @@ def generate(rank, args):
                 }
 
                 decoding_configs = {
-                    "topp": {"top_p": args.top_p, "do_sample": True},
-                    "topk": {"top_k": args.top_k, "do_sample": True},
+                    "topp": {"top_p": args.top_p, "do_sample": True, "seed": [42, 42]},
+                    "topk": {"top_k": args.top_k, "do_sample": True, "seed": [42, 42]},
                     "greedy": {},
-                    "temperature": {"temperature": args.temperature, "do_sample": True},
-                    "epsilon": {"epsilon_cutoff": args.epsilon_cutoff, "do_sample": True},
-                    "typical": {"typical_p": args.typical_p, "do_sample": True},
-                    "minp": {"min_p": args.min_p, "do_sample": True},
+                    "temperature": {"temperature": args.temperature, "do_sample": True, "seed": [42, 42]},
+                    "epsilon": {"epsilon_cutoff": args.epsilon_cutoff, "do_sample": True, "seed": [42, 42]},
+                    "typical": {"typical_p": args.typical_p, "do_sample": True, "seed": [42, 42]},
+                    "minp": {"min_p": args.min_p, "do_sample": True, "seed": [42, 42]},
                     "contrastive_search": {"penalty_alpha": args.cs_alpha, "top_k": args.cs_k},
                     "beam": {"num_beams": args.num_beams},
                     "diverse_beam": {
@@ -255,6 +264,12 @@ if __name__ == "__main__":
     #print(args)
     assert args.world_size % args.gpus_per_model == 0
     args.num_processes = args.world_size // args.gpus_per_model
+    
+    # Set deterministic seeds in the main process
+    torch.manual_seed(42)
+    torch.cuda.manual_seed_all(42)
+    np.random.seed(42)
+    random.seed(42)
     
     # Ensure output directory exists
     os.makedirs(os.path.dirname(args.outfile), exist_ok=True)

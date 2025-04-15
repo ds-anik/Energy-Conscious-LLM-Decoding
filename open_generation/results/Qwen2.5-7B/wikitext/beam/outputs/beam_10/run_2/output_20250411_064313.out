@@ -1,0 +1,23 @@
+Running run 2 with 2nd Run and beam=10
+Started nvidia-smi monitoring with PID 3873444 for run 2
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: beam
+  Updated Generation Config: GenerationConfig {
+  "eos_token_id": 151645,
+  "max_new_tokens": 220,
+  "num_beams": 10,
+  "pad_token_id": 151643,
+  "top_k": 0
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 719.21s
+Stopped nvidia-smi monitoring process for run 2

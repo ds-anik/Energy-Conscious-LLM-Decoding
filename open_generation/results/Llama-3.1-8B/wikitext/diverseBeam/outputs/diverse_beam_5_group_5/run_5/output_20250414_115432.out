@@ -1,0 +1,25 @@
+Running run 5 with 5th Run , beam_size=5, and beam_group_size=5
+Started nvidia-smi monitoring with PID 864161 for run 5
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: diverse_beam
+  Updated Generation Config: GenerationConfig {
+  "diversity_penalty": 1.0,
+  "eos_token_id": 128009,
+  "max_new_tokens": 219,
+  "num_beam_groups": 5,
+  "num_beams": 5,
+  "pad_token_id": 128009,
+  "top_k": 0
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 776.43s
+Stopped nvidia-smi monitoring process for run 5

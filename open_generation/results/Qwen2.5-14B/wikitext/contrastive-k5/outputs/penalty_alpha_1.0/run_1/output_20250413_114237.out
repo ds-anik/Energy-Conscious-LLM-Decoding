@@ -1,0 +1,23 @@
+Running run 1 with 1st Run and penalty_alpha=1.0
+Started nvidia-smi monitoring with PID 468724 for run 1
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: contrastive_search
+  Updated Generation Config: GenerationConfig {
+  "eos_token_id": 151645,
+  "max_new_tokens": 220,
+  "pad_token_id": 151643,
+  "penalty_alpha": 1.0,
+  "top_k": 5
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 1257.42s
+Stopped nvidia-smi monitoring process for run 1

@@ -1,0 +1,28 @@
+Running run 1 with 1st Run and epsilon=0.0003
+Started nvidia-smi monitoring with PID 188885 for run 1
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: epsilon
+  Updated Generation Config: GenerationConfig {
+  "do_sample": true,
+  "eos_token_id": 151645,
+  "epsilon_cutoff": 0.0003,
+  "max_new_tokens": 220,
+  "pad_token_id": 151643,
+  "seed": [
+    42,
+    42
+  ],
+  "top_k": 0
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 885.72s
+Stopped nvidia-smi monitoring process for run 1

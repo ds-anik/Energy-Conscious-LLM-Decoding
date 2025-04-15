@@ -2,7 +2,7 @@ import json
 from datasets import load_dataset, concatenate_datasets
 from transformers import AutoTokenizer
 
-def prepare_wikitext_dataset(tokenizer_name="meta-llama/Llama-3.1-8B-Instruct", prompt_length=32, min_sequence_length=160, max_sequence_length=250):
+def prepare_wikitext_dataset(tokenizer_name="meta-llama/Llama-3.1-8B-Instruct", prompt_length=40, min_sequence_length=160, max_sequence_length=250):
     # Load tokenizer
     tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     

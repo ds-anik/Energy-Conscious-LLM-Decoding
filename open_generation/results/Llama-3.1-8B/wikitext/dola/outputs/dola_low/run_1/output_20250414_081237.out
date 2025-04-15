@@ -1,0 +1,24 @@
+Running run 1 with 1st Run and dola=low
+Started nvidia-smi monitoring with PID 803957 for run 1
+the total number of prompts: 100
+the total number of prompts for rank 0: 100
+the total number of prompts for rank 0 to generate: 100
+rank 0 has generated 0 prompts
+Current generation config:
+  Method: dola
+  Updated Generation Config: GenerationConfig {
+  "dola_layers": "low",
+  "eos_token_id": 128009,
+  "max_new_tokens": 219,
+  "pad_token_id": 128009,
+  "repetition_penalty": 1.2,
+  "top_k": 0
+}
+
+----------Starting Generation Process----------
+rank 0 has generated 20 prompts
+rank 0 has generated 40 prompts
+rank 0 has generated 60 prompts
+rank 0 has generated 80 prompts
+Time used for rank 0: 731.70s
+Stopped nvidia-smi monitoring process for run 1
