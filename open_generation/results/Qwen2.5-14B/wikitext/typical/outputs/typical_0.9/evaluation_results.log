@@ -1,0 +1,46 @@
+Evaluation Results for typical (param=0.9)
+Started at: Thu Apr 17 12:02:04 AM CEST 2025
+SLURM Job ID: 794496
+Running on node: g002
+=================================================
+
+==================================================
+Evaluation for Run 1
+Decoding Strategy: typical
+Parameter Value: 0.9
+Timestamp: Thu Apr 17 12:02:04 AM CEST 2025
+GPU Device: 3
+Node: g002
+==================================================
+Processing: typical, param=0.9, run=1
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:18<01:12, 18.20s/it]Featurizing p:  40%|████      | 2/5 [00:48<01:16, 25.44s/it]Featurizing p:  60%|██████    | 3/5 [01:17<00:54, 27.01s/it]Featurizing p:  80%|████████  | 4/5 [01:39<00:24, 24.97s/it]Featurizing p: 100%|██████████| 5/5 [01:51<00:00, 20.36s/it]Featurizing p: 100%|██████████| 5/5 [01:51<00:00, 22.32s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:08<00:32,  8.17s/it]Featurizing q:  40%|████      | 2/5 [00:23<00:37, 12.57s/it]Featurizing q:  60%|██████    | 3/5 [00:34<00:23, 11.90s/it]Featurizing q:  80%|████████  | 4/5 [00:51<00:13, 13.94s/it]Featurizing q: 100%|██████████| 5/5 [01:00<00:00, 11.90s/it]Featurizing q: 100%|██████████| 5/5 [01:00<00:00, 12.05s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5768682171379429
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-14B/wikitext/typical/outputs/typical_0.9/run_1/combined_typical_0.9_run_1.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-14B/wikitext/typical/outputs/typical_0.9/run_1/output_typical_0.9_run_1.jsonl
+
+==================================================
+Evaluation for Run 2
+Decoding Strategy: typical
+Parameter Value: 0.9
+Timestamp: Thu Apr 17 12:06:52 AM CEST 2025
+GPU Device: 3
+Node: g002
+==================================================
+Processing: typical, param=0.9, run=2
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:24<01:39, 24.84s/it]Featurizing p:  40%|████      | 2/5 [00:52<01:20, 26.76s/it]Featurizing p:  60%|██████    | 3/5 [01:14<00:48, 24.18s/it]Featurizing p:  80%|████████  | 4/5 [01:34<00:22, 22.55s/it]Featurizing p: 100%|██████████| 5/5 [01:46<00:00, 18.92s/it]Featurizing p: 100%|██████████| 5/5 [01:46<00:00, 21.32s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:06<00:27,  6.80s/it]Featurizing q:  40%|████      | 2/5 [00:23<00:37, 12.41s/it]Featurizing q:  60%|██████    | 3/5 [00:30<00:20, 10.31s/it]Featurizing q:  80%|████████  | 4/5 [00:44<00:11, 11.66s/it]Featurizing q: 100%|██████████| 5/5 [00:52<00:00, 10.26s/it]Featurizing q: 100%|██████████| 5/5 [00:52<00:00, 10.49s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5768682171379429
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-14B/wikitext/typical/outputs/typical_0.9/run_2/combined_typical_0.9_run_2.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-14B/wikitext/typical/outputs/typical_0.9/run_2/output_typical_0.9_run_2.jsonl
+
+=================================================
+Evaluation completed at: Thu Apr 17 12:11:26 AM CEST 2025

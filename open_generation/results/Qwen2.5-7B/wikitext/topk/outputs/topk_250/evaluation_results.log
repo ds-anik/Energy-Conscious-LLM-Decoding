@@ -1,0 +1,46 @@
+Evaluation Results for topk (param=250)
+Started at: Wed Apr 16 09:58:44 AM CEST 2025
+SLURM Job ID: 794366
+Running on node: g002
+=================================================
+
+==================================================
+Evaluation for Run 1
+Decoding Strategy: topk
+Parameter Value: 250
+Timestamp: Wed Apr 16 09:58:44 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: topk, param=250, run=1
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:42<02:50, 42.64s/it]Featurizing p:  40%|████      | 2/5 [01:12<01:45, 35.23s/it]Featurizing p:  60%|██████    | 3/5 [01:38<01:02, 31.03s/it]Featurizing p:  80%|████████  | 4/5 [01:59<00:27, 27.16s/it]Featurizing p: 100%|██████████| 5/5 [02:24<00:00, 26.21s/it]Featurizing p: 100%|██████████| 5/5 [02:24<00:00, 28.89s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:23<01:32, 23.15s/it]Featurizing q:  40%|████      | 2/5 [00:39<00:56, 18.95s/it]Featurizing q:  60%|██████    | 3/5 [00:49<00:30, 15.04s/it]Featurizing q:  80%|████████  | 4/5 [01:07<00:16, 16.36s/it]Featurizing q: 100%|██████████| 5/5 [01:16<00:00, 13.45s/it]Featurizing q: 100%|██████████| 5/5 [01:16<00:00, 15.24s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5513318368192183
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topk/outputs/topk_250/run_1/combined_topk_250_run_1.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topk/outputs/topk_250/run_1/output_topk_250_run_1.jsonl
+
+==================================================
+Evaluation for Run 2
+Decoding Strategy: topk
+Parameter Value: 250
+Timestamp: Wed Apr 16 10:04:42 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: topk, param=250, run=2
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:33<02:12, 33.02s/it]Featurizing p:  40%|████      | 2/5 [00:59<01:27, 29.10s/it]Featurizing p:  60%|██████    | 3/5 [01:21<00:51, 25.82s/it]Featurizing p:  80%|████████  | 4/5 [01:41<00:23, 23.62s/it]Featurizing p: 100%|██████████| 5/5 [02:06<00:00, 24.11s/it]Featurizing p: 100%|██████████| 5/5 [02:06<00:00, 25.30s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:22<01:30, 22.56s/it]Featurizing q:  40%|████      | 2/5 [00:41<01:01, 20.66s/it]Featurizing q:  60%|██████    | 3/5 [00:56<00:35, 17.98s/it]Featurizing q:  80%|████████  | 4/5 [01:12<00:17, 17.02s/it]Featurizing q: 100%|██████████| 5/5 [01:21<00:00, 14.28s/it]Featurizing q: 100%|██████████| 5/5 [01:21<00:00, 16.33s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5513318368192183
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topk/outputs/topk_250/run_2/combined_topk_250_run_2.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topk/outputs/topk_250/run_2/output_topk_250_run_2.jsonl
+
+=================================================
+Evaluation completed at: Wed Apr 16 10:10:30 AM CEST 2025

@@ -1,0 +1,46 @@
+Evaluation Results for topp (param=0.8)
+Started at: Wed Apr 16 08:28:41 AM CEST 2025
+SLURM Job ID: 794366
+Running on node: g002
+=================================================
+
+==================================================
+Evaluation for Run 1
+Decoding Strategy: topp
+Parameter Value: 0.8
+Timestamp: Wed Apr 16 08:28:41 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: topp, param=0.8, run=1
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:40<02:41, 40.47s/it]Featurizing p:  40%|████      | 2/5 [01:14<01:49, 36.65s/it]Featurizing p:  60%|██████    | 3/5 [01:36<00:59, 29.87s/it]Featurizing p:  80%|████████  | 4/5 [01:47<00:22, 22.36s/it]Featurizing p: 100%|██████████| 5/5 [02:06<00:00, 21.34s/it]Featurizing p: 100%|██████████| 5/5 [02:06<00:00, 25.33s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:08<00:34,  8.51s/it]Featurizing q:  40%|████      | 2/5 [00:21<00:33, 11.06s/it]Featurizing q:  60%|██████    | 3/5 [00:30<00:20, 10.12s/it]Featurizing q:  80%|████████  | 4/5 [00:43<00:11, 11.32s/it]Featurizing q: 100%|██████████| 5/5 [00:52<00:00, 10.60s/it]Featurizing q: 100%|██████████| 5/5 [00:52<00:00, 10.57s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.6340439581850303
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topp/outputs/topp_0.8/run_1/combined_topp_0.8_run_1.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topp/outputs/topp_0.8/run_1/output_topp_0.8_run_1.jsonl
+
+==================================================
+Evaluation for Run 2
+Decoding Strategy: topp
+Parameter Value: 0.8
+Timestamp: Wed Apr 16 08:33:55 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: topp, param=0.8, run=2
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:36<02:25, 36.30s/it]Featurizing p:  40%|████      | 2/5 [00:58<01:23, 27.92s/it]Featurizing p:  60%|██████    | 3/5 [01:15<00:46, 23.04s/it]Featurizing p:  80%|████████  | 4/5 [01:26<00:18, 18.28s/it]Featurizing p: 100%|██████████| 5/5 [01:42<00:00, 17.56s/it]Featurizing p: 100%|██████████| 5/5 [01:42<00:00, 20.57s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:09<00:39,  9.85s/it]Featurizing q:  40%|████      | 2/5 [00:24<00:38, 12.74s/it]Featurizing q:  60%|██████    | 3/5 [00:36<00:24, 12.31s/it]Featurizing q:  80%|████████  | 4/5 [00:51<00:13, 13.52s/it]Featurizing q: 100%|██████████| 5/5 [01:00<00:00, 11.91s/it]Featurizing q: 100%|██████████| 5/5 [01:00<00:00, 12.17s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.6340439581850303
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topp/outputs/topp_0.8/run_2/combined_topp_0.8_run_2.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/topp/outputs/topp_0.8/run_2/output_topp_0.8_run_2.jsonl
+
+=================================================
+Evaluation completed at: Wed Apr 16 08:38:54 AM CEST 2025

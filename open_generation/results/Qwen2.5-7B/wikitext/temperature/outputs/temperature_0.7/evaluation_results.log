@@ -1,0 +1,46 @@
+Evaluation Results for temperature (param=0.7)
+Started at: Wed Apr 16 02:55:06 PM CEST 2025
+SLURM Job ID: 794366
+Running on node: g002
+=================================================
+
+==================================================
+Evaluation for Run 1
+Decoding Strategy: temperature
+Parameter Value: 0.7
+Timestamp: Wed Apr 16 02:55:06 PM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: temperature, param=0.7, run=1
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:24<01:37, 24.29s/it]Featurizing p:  40%|████      | 2/5 [00:53<01:21, 27.26s/it]Featurizing p:  60%|██████    | 3/5 [01:22<00:56, 28.10s/it]Featurizing p:  80%|████████  | 4/5 [01:43<00:25, 25.02s/it]Featurizing p: 100%|██████████| 5/5 [01:57<00:00, 21.27s/it]Featurizing p: 100%|██████████| 5/5 [01:57<00:00, 23.53s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:15<01:03, 15.90s/it]Featurizing q:  40%|████      | 2/5 [00:33<00:51, 17.02s/it]Featurizing q:  60%|██████    | 3/5 [00:48<00:31, 15.96s/it]Featurizing q:  80%|████████  | 4/5 [01:05<00:16, 16.44s/it]Featurizing q: 100%|██████████| 5/5 [01:16<00:00, 14.55s/it]Featurizing q: 100%|██████████| 5/5 [01:16<00:00, 15.36s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5196707987804141
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/temperature/outputs/temperature_0.7/run_1/combined_temperature_0.7_run_1.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/temperature/outputs/temperature_0.7/run_1/output_temperature_0.7_run_1.jsonl
+
+==================================================
+Evaluation for Run 2
+Decoding Strategy: temperature
+Parameter Value: 0.7
+Timestamp: Wed Apr 16 03:00:38 PM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: temperature, param=0.7, run=2
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:26<01:44, 26.05s/it]Featurizing p:  40%|████      | 2/5 [01:06<01:43, 34.59s/it]Featurizing p:  60%|██████    | 3/5 [01:27<00:56, 28.40s/it]Featurizing p:  80%|████████  | 4/5 [01:48<00:25, 25.39s/it]Featurizing p: 100%|██████████| 5/5 [02:04<00:00, 21.86s/it]Featurizing p: 100%|██████████| 5/5 [02:04<00:00, 24.81s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:20<01:21, 20.36s/it]Featurizing q:  40%|████      | 2/5 [00:38<00:56, 18.96s/it]Featurizing q:  60%|██████    | 3/5 [00:56<00:37, 18.67s/it]Featurizing q:  80%|████████  | 4/5 [01:12<00:17, 17.48s/it]Featurizing q: 100%|██████████| 5/5 [01:23<00:00, 15.23s/it]Featurizing q: 100%|██████████| 5/5 [01:23<00:00, 16.71s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5196707987804141
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/temperature/outputs/temperature_0.7/run_2/combined_temperature_0.7_run_2.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/temperature/outputs/temperature_0.7/run_2/output_temperature_0.7_run_2.jsonl
+
+=================================================
+Evaluation completed at: Wed Apr 16 03:06:24 PM CEST 2025

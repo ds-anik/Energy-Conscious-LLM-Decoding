@@ -1,0 +1,46 @@
+Evaluation Results for beam (param=10)
+Started at: Wed Apr 16 11:43:48 AM CEST 2025
+SLURM Job ID: 794366
+Running on node: g002
+=================================================
+
+==================================================
+Evaluation for Run 1
+Decoding Strategy: beam
+Parameter Value: 10
+Timestamp: Wed Apr 16 11:43:48 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: beam, param=10, run=1
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:23<01:33, 23.44s/it]Featurizing p:  40%|████      | 2/5 [00:47<01:12, 24.09s/it]Featurizing p:  60%|██████    | 3/5 [01:08<00:44, 22.35s/it]Featurizing p:  80%|████████  | 4/5 [01:24<00:20, 20.13s/it]Featurizing p: 100%|██████████| 5/5 [01:46<00:00, 20.56s/it]Featurizing p: 100%|██████████| 5/5 [01:46<00:00, 21.26s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:22<01:28, 22.07s/it]Featurizing q:  40%|████      | 2/5 [00:43<01:05, 21.79s/it]Featurizing q:  60%|██████    | 3/5 [01:01<00:40, 20.17s/it]Featurizing q:  80%|████████  | 4/5 [01:18<00:18, 18.88s/it]Featurizing q: 100%|██████████| 5/5 [01:38<00:00, 19.29s/it]Featurizing q: 100%|██████████| 5/5 [01:38<00:00, 19.76s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.6321691182846797
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/beam/outputs/beam_10/run_1/combined_beam_10_run_1.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/beam/outputs/beam_10/run_1/output_beam_10_run_1.jsonl
+
+==================================================
+Evaluation for Run 2
+Decoding Strategy: beam
+Parameter Value: 10
+Timestamp: Wed Apr 16 11:49:37 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: beam, param=10, run=2
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:17<01:09, 17.26s/it]Featurizing p:  40%|████      | 2/5 [00:55<01:28, 29.56s/it]Featurizing p:  60%|██████    | 3/5 [01:18<00:53, 26.79s/it]Featurizing p:  80%|████████  | 4/5 [01:36<00:23, 23.17s/it]Featurizing p: 100%|██████████| 5/5 [01:54<00:00, 21.12s/it]Featurizing p: 100%|██████████| 5/5 [01:54<00:00, 22.81s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:20<01:22, 20.53s/it]Featurizing q:  40%|████      | 2/5 [00:39<00:58, 19.43s/it]Featurizing q:  60%|██████    | 3/5 [00:57<00:37, 18.75s/it]Featurizing q:  80%|████████  | 4/5 [01:13<00:17, 17.80s/it]Featurizing q: 100%|██████████| 5/5 [01:32<00:00, 18.34s/it]Featurizing q: 100%|██████████| 5/5 [01:32<00:00, 18.55s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.6321691182846797
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/beam/outputs/beam_10/run_2/combined_beam_10_run_2.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/beam/outputs/beam_10/run_2/output_beam_10_run_2.jsonl
+
+=================================================
+Evaluation completed at: Wed Apr 16 11:55:25 AM CEST 2025

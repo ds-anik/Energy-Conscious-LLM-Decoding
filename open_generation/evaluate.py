@@ -2,18 +2,43 @@ import json
 import mauve 
 import argparse
 from transformers import AutoTokenizer
+import re
+import torch
+import os
+
+def clean_completion(text):
+    # Remove [ANS], [INST], [RESPONSE] tokens and their variations with escaped slashes
+    # This will match [ANS], [/ANS], [\/ANS], [INST], [/INST], [\/INST], etc.
+    cleaned = re.sub(r'\[(?:\/|\\\/)?(?:ANS|INST|RESPONSE)\]\s*', '', text)
+    # Remove multiple spaces
+    cleaned = re.sub(r'\s+', ' ', cleaned)
+    # Remove leading/trailing whitespace
+    cleaned = cleaned.strip()
+    return cleaned
 
 def count_tokens(text, tokenizer):
     return len(tokenizer.encode(text))
 
 def calculate_mauve(full_texts, gold_refs, device_id=0):
+
     # Convert inputs to lists if they aren't already
     if not isinstance(full_texts, list):
         full_texts = [full_texts]
     if not isinstance(gold_refs, list):
         gold_refs = [gold_refs]
+
+
     
-    out = mauve.compute_mauve(p_text=full_texts, q_text=gold_refs, device_id=device_id, max_text_length=256, mauve_scaling_factor=1, featurize_model_name='gpt2-xl', verbose=False) 
+    out = mauve.compute_mauve(
+        p_text=full_texts, 
+        q_text=gold_refs, 
+        device_id=device_id,  # Use None for CPU
+        max_text_length=270, 
+        mauve_scaling_factor=1, 
+        featurize_model_name='gpt2-xl', 
+        batch_size=20,
+        verbose=False
+    ) 
     return out
 
 def combine_prompt_completion(prompt_file, completion_file, gold_ref_file, output_file, device_id=0):
@@ -31,12 +56,13 @@ def combine_prompt_completion(prompt_file, completion_file, gold_ref_file, outpu
             prompt = full_instruction.split('\n\n')[1].split('[/INST]')[0].strip()
             prompts.append(prompt)
     
-    # Read completions
+    # Read completions and clean them
     completions = []
     with open(completion_file, 'r', encoding='utf-8') as f:
         for line in f:
             data = json.loads(line.strip())
-            completions.append(data['completion'])
+            cleaned_completion = clean_completion(data['completion'])
+            completions.append(cleaned_completion)
             
     # Read gold references
     gold_refs = []
@@ -93,14 +119,3 @@ if __name__ == "__main__":
     main()
 
 
-    # echo "Generation completed. Running evaluation..."
-    
-    # # Run evaluate.py to combine outputs and calculate MAUVE score
-    # python3 /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/evaluate.py \
-    #         --prompt_file /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/wikitext_data/sampled_wikitext_data.jsonl \
-    #         --completion_file $RUN_OUTPUT_DIR/output_greedy_${TEMP}_run_$((i+1)).jsonl \
-    #         --gold_ref_file /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/wikitext_data/gold_ref.jsonl \
-    #         --output_file $RUN_OUTPUT_DIR/combined_greedy_${TEMP}_run_$((i+1)).jsonl \
-    #         --device_id $GPUS
-
-    # echo "Evaluation completed."

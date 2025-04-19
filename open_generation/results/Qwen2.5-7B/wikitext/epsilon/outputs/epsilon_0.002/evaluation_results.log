@@ -1,0 +1,46 @@
+Evaluation Results for epsilon (param=0.002)
+Started at: Wed Apr 16 10:22:20 AM CEST 2025
+SLURM Job ID: 794366
+Running on node: g002
+=================================================
+
+==================================================
+Evaluation for Run 1
+Decoding Strategy: epsilon
+Parameter Value: 0.002
+Timestamp: Wed Apr 16 10:22:20 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: epsilon, param=0.002, run=1
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:35<02:20, 35.24s/it]Featurizing p:  40%|████      | 2/5 [01:07<01:39, 33.32s/it]Featurizing p:  60%|██████    | 3/5 [01:30<00:57, 28.62s/it]Featurizing p:  80%|████████  | 4/5 [01:53<00:26, 26.43s/it]Featurizing p: 100%|██████████| 5/5 [02:16<00:00, 25.25s/it]Featurizing p: 100%|██████████| 5/5 [02:16<00:00, 27.29s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:19<01:19, 19.97s/it]Featurizing q:  40%|████      | 2/5 [00:37<00:55, 18.49s/it]Featurizing q:  60%|██████    | 3/5 [00:54<00:35, 17.95s/it]Featurizing q:  80%|████████  | 4/5 [01:10<00:17, 17.19s/it]Featurizing q: 100%|██████████| 5/5 [01:26<00:00, 16.79s/it]Featurizing q: 100%|██████████| 5/5 [01:26<00:00, 17.37s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5936450004373365
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/epsilon/outputs/epsilon_0.002/run_1/combined_epsilon_0.002_run_1.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/epsilon/outputs/epsilon_0.002/run_1/output_epsilon_0.002_run_1.jsonl
+
+==================================================
+Evaluation for Run 2
+Decoding Strategy: epsilon
+Parameter Value: 0.002
+Timestamp: Wed Apr 16 10:28:25 AM CEST 2025
+GPU Device: 2
+Node: g002
+==================================================
+Processing: epsilon, param=0.002, run=2
+
+Calculating MAUVE score...
+Featurizing p:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing p:  20%|██        | 1/5 [00:30<02:00, 30.19s/it]Featurizing p:  40%|████      | 2/5 [01:03<01:35, 31.74s/it]Featurizing p:  60%|██████    | 3/5 [01:22<00:52, 26.27s/it]Featurizing p:  80%|████████  | 4/5 [01:45<00:24, 24.87s/it]Featurizing p: 100%|██████████| 5/5 [02:07<00:00, 23.92s/it]Featurizing p: 100%|██████████| 5/5 [02:07<00:00, 25.55s/it]
+Featurizing q:   0%|          | 0/5 [00:00<?, ?it/s]Featurizing q:  20%|██        | 1/5 [00:19<01:19, 19.88s/it]Featurizing q:  40%|████      | 2/5 [00:35<00:52, 17.64s/it]Featurizing q:  60%|██████    | 3/5 [00:52<00:34, 17.34s/it]Featurizing q:  80%|████████  | 4/5 [01:10<00:17, 17.27s/it]Featurizing q: 100%|██████████| 5/5 [01:28<00:00, 17.66s/it]Featurizing q: 100%|██████████| 5/5 [01:28<00:00, 17.69s/it]
+WARNING clustering 200 points to 10 centroids: please provide at least 390 training points
+MAUVE score: 0.5936450004373365
+
+Successfully combined prompts and completions. Output saved to /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/epsilon/outputs/epsilon_0.002/run_2/combined_epsilon_0.002_run_2.jsonl
+Evaluation completed for /home/alireza/D1/Energy-Conscious-LLM-Decoding/open_generation/results/Qwen2.5-7B/wikitext/epsilon/outputs/epsilon_0.002/run_2/output_epsilon_0.002_run_2.jsonl
+
+=================================================
+Evaluation completed at: Wed Apr 16 10:34:18 AM CEST 2025
